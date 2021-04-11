@@ -1,0 +1,19 @@
+[package]
+name = "rusqdrive"
+version = "0.2.0"
+authors = ["jadsn1894@gmail.com"]
+license = "MIT OR Apache-2.0"
+edition = "2018"
+
+[dependencies]
+r2d2 = '0.8.9'
+r2d2_sqlite = '0.18.0'
+chrono = "0.4.19"
+
+[dependencies.rusqdrive_derive]
+version = "1.2.0"
+path = "../rusqdrive_derive"
+
+[dependencies.rusqlite]
+version = "0.25.0"
+features = ["bundled"]

@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "rusqdrive",
+    "rusqdrive_derive"
+]
